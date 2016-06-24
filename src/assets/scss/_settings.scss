@@ -16,8 +16,8 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
-$secondary-color: #777777;
+$primary-color: #96070a;
+$secondary-color: #9b9b9b;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -66,7 +66,7 @@ $h1-font-size: 34px;
 $h2-font-size: 30px;
 $h3-font-size: 28px;
 $h4-font-size: 24px;
-$h5-font-size: 20px;
+$h5-font-size: 13px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
@@ -84,9 +84,9 @@ $hr-width: $global-width;
 $hr-border: 1px solid $medium-gray;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
-$anchor-color: $primary-color;
+$anchor-color: $secondary-color;
 $anchor-color-visited: $anchor-color;
-$anchor-color-hover: darken($primary-color, 10%);
+$anchor-color-hover: darken($primary-color, 30%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 
