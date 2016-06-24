@@ -46,3 +46,7 @@ Run `npm run build` to inline your CSS into your HTML along with the rest of the
 
 
 Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services.
+
+
+## Deploy To GH Pages
+Run `gulp deploy` to deploy static html files to gh-pages

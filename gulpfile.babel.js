@@ -12,6 +12,7 @@ import path     from 'path';
 import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
+var ghPages = require('gulp-gh-pages');
 
 const $ = plugins();
 
@@ -206,4 +207,9 @@ function zip() {
   return merge(moveTasks);
 }
 
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
 
