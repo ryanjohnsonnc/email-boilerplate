@@ -67,7 +67,11 @@ a {
 .subfooter p {font-size: 11px;}
 .headline {
   font-weight: 300;
-  font-size: 11px;  
+  font-size: 11px;
   line-height: 12px;
   color: #000;
+}
+
+.social {max-width: 25px;
+  display: inline-block;
 }
