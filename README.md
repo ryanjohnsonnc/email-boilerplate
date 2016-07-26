@@ -1,10 +1,10 @@
-# Foundation for Emails Template
+# An Email Workflow Using Foundation For Emails
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 
 **Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
 
-This is the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
+This is the 2016 email starter project for Theory Communication and Design. It is based on the [Foundation for Emails](http://foundation.zurb.com/emails) framework built by Zurb. Here are some of the features:
 
 - Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
 - Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
@@ -12,6 +12,7 @@ This is the official starter project for [Foundation for Emails](http://foundati
 - Image compression
 - Built-in BrowserSync server
 - Full email inlining process
+- Gulp powered workflow
 
 ## Installation
 
